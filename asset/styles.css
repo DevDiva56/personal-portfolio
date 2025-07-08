@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    font-family:poppins, sans-serif;
+    background-color: cadetblue;
+    color: #333;
+}
+
 .nav-container {
     height: auto;
     background-color: cadetblue;
@@ -50,4 +56,65 @@
 .main-menu-container ul li a {
     text-decoration: none;
     color: white;
+}
+
+.hero-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.hero-image{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text{
+    padding: 20px;
+    width: 80%;
+}
+
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: salmon;
+    color: white;
+    border: 2px solid darksalmon;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: darksalmon;
+}
+
+.about-container{
+    padding: 2px;
+    margin: 0 auto;
+    width: 80%;
 }
