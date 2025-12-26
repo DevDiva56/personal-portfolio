@@ -1,4 +1,4 @@
-*:root{
+/* *:root{
     margin: 0;
     padding: 0;
 }
@@ -130,7 +130,7 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-}
+/* }
 
 .about-image{
     display: flex;
@@ -169,4 +169,4 @@ button:active {
     margin: 20px;
     text-align: center;
     box-shadow: 0 3px 10px rgb(255 0 0 / 0.7);
-}
+} */ */
