@@ -5,11 +5,18 @@
 }
 
 .nav-bar {
-    width: 100%;
-    position:relative; 
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(58, 70, 100, 1);
+    padding: 0 20px;
+     color: rgb(234,160,162);
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .nav-bar ul{
@@ -26,12 +33,83 @@
     padding: 15px;
     display: block;
     text-align: center;
+
+    transition: transform 0.2s ease;
 }
 
 .nav-bar a:hover{
     background-color: rgba(58, 70, 100, 1);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0,0.2);
+
 }
 
-.nav-bar li{
-    float: left;
+.nav-bar ul{
+     display: flex;
+     justify-content: flex-end;
+}
+
+body{
+     background-color: rgb(234,160,162);
+
+}
+
+.card-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.card{
+    background-color: rgba(58, 70, 100, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s ease;
+    box-shadow: 0.2s, ease;
+}
+
+.card:hover{
+
+   transform: translateY(-4px);
+   box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.card h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.card p{
+    font-size: 0.9rem;
+}
+
+.button{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button button {
+
+    padding: 12px 25px;
+    border: none ;
+    border-radius: 8px;
+     background-color: rgba(58, 70, 100, 1);
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button button:hover{
+    transform: translateY(-3px);
+    background-color: rgb(210,140,145);
 }
